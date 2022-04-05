@@ -1,0 +1,110 @@
+body{
+	background-color: #0093AB;
+	color: #FFD124;
+	font-family: centaur;
+	font-size: 24px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+
+h1, h2, h3 {
+	font-family: harrington;
+}
+h1 {
+	color: #FFD124;
+	font-size: 30px;
+	font-weight: bolder;
+	text-align: center;
+	
+}
+h2 {
+	color: #FFD124;
+	font-size: 26px;
+	font-weight: lighter;
+}
+
+a {
+	font-size: 24px;
+	text-decoration: underline;
+	text-align: center;
+	color: #FFD124;
+}
+a:hover {
+	color: #FFD124;
+	font-weight: bolder;
+}
+
+@media (max-width: 1500px) {
+  .container {
+    width: 900px;
+  }
+  .card-white{
+  	width: 800px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .card-white{
+  	width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 350px;
+  }
+  .card-white{
+  	width: 300px;
+  }
+}
+.container{
+	background: #006778;
+	padding: 30px 10px 40px 10px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0px 15px 35px rgba(0,0,0,.4);
+}
+
+.card-white{
+	background: #00AFC1;
+	padding: 30px 10px 40px 10px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0px 15px 35px rgba(0,0,0,.2);
+}
+
+#logo {
+	width: 100px;
+	border-radius: 50%;
+	margin: 0px auto;
+	text-align: center;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+}
+
+.button {
+    background-color: #FFD124;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+	box-shadow: 0px 10px 15px rgba(0,0,0,.5);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+}
